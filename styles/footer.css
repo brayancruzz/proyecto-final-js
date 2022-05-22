@@ -1,0 +1,28 @@
+:root {
+    --gris: #333333;
+    --naranja: #ff7b00;
+    --blanco: #ffffff;
+    --rojo: #830000;
+}
+
+footer{
+    background-color: var(--rojo);
+    color: var(--blanco);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 50px;
+}
+
+footer .logo-footer{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+footer .logo-footer img{
+    height: 100%;
+    width: 100%;
+}

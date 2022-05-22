@@ -1,0 +1,86 @@
+:root {
+    --gris: #333333;
+    --naranja: #ff7b00;
+    --blanco: #ffffff;
+    --rojo: #830000;
+}
+
+.popup-cart{
+    right: 0%;
+    width: 400px;
+    height: 100%;
+    background-color: var(--rojo);
+    position: fixed;
+    z-index: 2;
+    display: none;
+    text-align: center;
+}
+
+.popup-cart .title{
+    padding: 20px;
+}
+
+.popup-cart .title h3{
+    float: left;
+    font-size: 24px;
+    color: var(--blanco);
+}   
+
+.popup-cart .title #icon-remove{
+    float: right;
+    font-size: 24px;
+    color: var(--blanco);
+    cursor: pointer;
+}   
+
+.popup-cart .cart-container{
+    font-size: 12px;
+    background-color: rgb(175, 175, 175);
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.popup-cart .cart-container #cart li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup-cart .cart-container #cart li .product-name{
+    width: 50%;
+    text-align: left;
+}
+
+.popup-cart .cart-container #cart li .product-price{
+    width: 25%;
+    text-align: left;
+}
+
+.popup-cart .cart-container #cart li .product-amount{
+    width: 25%;
+}
+
+.popup-cart .cart-container .cart-footer{
+    display: flex;
+}
+
+.cart-footer div{
+    width: 100%;
+}
+
+.btn-cart{
+    display: flex;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.btn-cart button{
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+
+.cart-container div .totalPrice{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}

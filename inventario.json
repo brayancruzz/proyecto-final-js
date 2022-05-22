@@ -1,0 +1,38 @@
+[
+    {   
+        "id" : 1,
+        "name" : "Pizza Hawaiana",
+        "price" : 16000,
+        "image" : "https://www.hola.com/imagenes/cocina/recetas/20200120158504/pizza-hawaiana-o-pizza-tropical/0-770-827/pizza-hawaiana-m.jpg"
+    },
+    {
+        "id" : 2,
+        "name" : "Pizza Carnes",
+        "price" : 16000,
+        "image" : "https://imag.bonviveur.com/pizza-de-carne-picada.jpg"
+    },
+    {  
+        "id" : 3,
+        "name" : "Pizza Champiñones",
+        "price" : 16000,
+        "image" : "https://unareceta.com/wp-content/uploads/2014/05/pizza-de-champin%CC%83ones.jpg"
+    },
+    {  
+        "id" : 4,
+        "name" : "Pizza Margarita",
+        "price" : 18000,
+        "image" : "https://www.hola.com/imagenes/cocina/recetas/20190911149183/pizza-margarita/0-717-935/pizza-m.jpg"
+    },
+    {  
+        "id" : 5,
+        "name" : "Pizza de Pepperoni",
+        "price" : 17500,
+        "image" : "https://www.hola.com/imagenes/cocina/recetas/20220208204252/pizza-pepperoni-mozzarella/1-48-890/pepperoni-pizza-abob-m.jpg"
+    },
+    {  
+        "id" : 6,
+        "name" : "Pizza Marinara",
+        "price" : 17500,
+        "image" : "https://www.paulinacocina.net/wp-content/uploads/2017/04/2-640x427.jpg"
+    }
+]

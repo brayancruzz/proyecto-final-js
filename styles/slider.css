@@ -1,0 +1,17 @@
+.slider{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    justify-content: center;
+
+}
+
+.slider .slider-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

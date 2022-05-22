@@ -1,0 +1,69 @@
+:root {
+    --gris: #333333;
+    --blanco: #ffffff;
+    --rojo: #830000;
+}
+
+.pizzas{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pizzas .nuestras-pizzas{
+    margin-bottom: 20px;
+}
+
+.pizzas .container-productos ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pizzas .container-productos ul li{
+    list-style: none;
+    border-radius: 10px;
+}
+
+.pizzas .container-productos ul li:hover{
+    transform: scale(1.03);
+    transition: all 400ms;
+}
+
+.pizzas .container-productos ul li img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pizzas .container-productos ul .pizza-data{
+    margin: 10px;
+    display: grid;
+    gap: 5px;
+}
+
+.pizzas .container-productos ul .pizza-name{
+    font-size: 24px;
+    color: var(--rojo);
+}
+
+.pizzas .container-productos ul .pizza-price{
+    font-size: 18px;
+    color: var(--gris);
+}
+
+.pizzas .container-productos ul button{
+    font-size: 18px;
+    height: 35px;
+    color: var(--blanco);
+    background-color: var(--rojo);
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}

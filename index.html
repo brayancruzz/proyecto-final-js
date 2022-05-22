@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzería | Pizzas a domicilio</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/slider.css">
+    <link rel="stylesheet" href="/styles/root.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/cards.css">
+    <link rel="stylesheet" href="/styles/popupCart.css">
+</head>
+<body>
+    <div class="popup-cart" id="popup-cart">
+        <div class="title">
+            <h3>
+                Carrito
+            </h3>
+            <li class="fa fa-remove" id="icon-remove"></li>
+        </div>
+        <div class="cart-container">
+            <ul id="cart">
+            </ul>
+            <div class="cart-footer">
+            </div>
+            <div class="btn-cart">
+                <button id="btn-pay">Pagar</button>
+                <button id="btn-delete">Borrar Carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <header id="main-header">
+        <div id="logo-header">
+            <a href="">
+                <img src="/img/Logo.png" alt="logo-pizzeria">
+            </a>
+        </div>
+		<nav>
+			<ul>
+				<li><a href="/index.html">Inicio</a></li>
+                <li class="fa fa-shopping-cart" id="icon-cart"></li>
+			</ul>
+		</nav>
+	</header>
+    <div class="container">
+        <div class="slider">
+            <img name="slider" class="slider-img">
+        </div>
+        <div class="pizzas">
+            <h2 class="nuestras-pizzas">
+                Nuestras Pizzas
+            </h2>
+            <div class="container-productos">
+                <ul id="list">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="logo-footer">
+            <img src="/img/Logo.png" alt="logo-pizzeria">
+        </div>
+        <h4>
+            Bogotá D.C, Colombia
+        </h4>
+        <h4>
+            2022
+        </h4>
+    </footer>
+
+    <script src="/js/slider.js"></script>
+    <script type="module" src="/js/productos.js"></script>
+    <script type="module" src="/js/cart.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
